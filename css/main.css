@@ -1,0 +1,42 @@
+body {
+  font-family: "Courier New", monospace;
+  font-size: 14px;
+  background: #eee;
+}
+
+.container {
+  box-sizing: border-box;
+  padding: 20px;
+  background: #fff;
+  text-align: center;
+  width: 600px;
+  height: 270px;
+  margin: 20px auto;
+}
+
+#timer {
+  background: #ddd;
+  height: 120px;
+  line-height: 120px;
+  font-size: 40px;
+  margin-bottom: 15px;
+}
+
+.btn-box {
+  display: flex;
+  justify-content: center;
+}
+
+.btn-box .btn {
+  width: 80px;
+  height: 45px;
+  line-height: 45px;
+  background-color: #ddd;
+  cursor: pointer;
+  margin: 0 10px;
+  user-select: none;
+}
+
+.inactive {
+  opacity: 0.6;
+}
